@@ -6,8 +6,8 @@ function Counter() {
     <div>
       <h1>Counter App</h1>
       <p>Count: {counter}</p>
-      <button onClick={()=>setCounter((prev)=>prev+1)}>Incriment</button>
-      <button onClick={()=>setCounter((prev)=>prev-1)}>Decriment</button>
+      <button onClick={()=>setCounter((prev)=>prev+1)}>Increment</button>
+      <button onClick={()=>setCounter((prev)=>prev-1)}>Decrement</button>
     </div>
   )
 }
